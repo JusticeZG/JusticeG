@@ -511,7 +511,7 @@ body {
 }
   
   #mySidenav a:hover {
-    left: 0; /* On mouse-over, make the elements appear as they should */
+    left: -8px; /* On mouse-over, make the elements appear as they should */
   }
   
   /* The about link: 20px from the top with a green background */
