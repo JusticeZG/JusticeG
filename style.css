@@ -502,6 +502,7 @@ body {
     font-size: 20px; /* Increase font size */
     font-style: bold;
     color: #191919; /* White text color */
+    text-align: center;
     border-style: transparent;
     border-radius: 4px;
     -webkit-border-radius: 4px;
