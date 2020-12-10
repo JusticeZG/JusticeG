@@ -493,7 +493,7 @@ body {
 
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
-    left: -100px; /* Position them outside of the screen */
+    left: -110px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 2px 4px; /* 15px padding */
     width: 100px; /* Set a specific width */
