@@ -515,87 +515,93 @@ body {
     left: -8px; /* On mouse-over, make the elements appear as they should */
   }
   
-  /* The about link: 20px from the top with a green background */
-  #homenav {
+#mainnav {
     top: 20px;
-    background-color: #ffffff;
-  }
+}
 
-  #homenav:hover {
+#mainnav:hover {
     top: 20px;
     color: #ffffff;
     background-color: #191919;
     border-color: #ffffff;
     border-style: solid;
     border-width: 4px;
-  }
+}
 
-  #aboutnav {
-    top: 60px;
-    background-color: #c4ffc4;
-  }
+#homenav {
+    top: 20px;
+}
 
-  #aboutnav:hover {
-    top: 60px;
+#homenav:hover {
+    top: 20px;
+    color: #ffffff;
+    background-color: #191919;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#aboutnav {
+    top: 54px;
+}
+
+#aboutnav:hover {
+    top: 54px;
     color: #c4ffc4;
     background-color: #191919;
     border-color: #c4ffc4;
     border-style: solid;
     border-width: 4px;
-  }
-  
-  #createnav {
-    top: 100px;
-    background-color: #ffe489; /* Blue */
-  }
-  
-  #createnav:hover {
-    top: 100px;
+}
+
+#createnav {
+    top: 88px;
+}
+
+#createnav:hover {
+    top: 88px;
     color: #ffe489;
     background-color: #191919;
     border-color: #ffe489;
     border-style: solid;
     border-width: 4px;
-  }
+}
 
-  #playnav {
-    top: 140px;
-    background-color: #faafa0; /* Red */
-  }
-  
-  #playnav:hover {
-    top: 140px;
+#playnav {
+    top: 122px;
+}
+
+#playnav:hover {
+    top: 122px;
     color: #faafa0;
     background-color: #191919;
     border-color: #faafa0;
     border-style: solid;
     border-width: 4px;
-  }
+}
 
-  #worknav {
-    top: 180px;
-    background-color: #92d7ef /* Light Black */
-  }
+#worknav {
+    top: 156px;
+}
 
-  #worknav:hover {
-    top: 180px;
+#worknav:hover {
+    top: 156px;
     color: #92d7ef;
     background-color: #191919;
     border-color: #92d7ef;
     border-style: solid;
     border-width: 4px;
-  }
-  
-  #contactnav {
-    top: 220px;
-    background-color: #ffffff /* Light Black */
-  }
+}
 
-  #contactnav:hover {
-    top: 220px;
+#contactnav {
+    top: 190px;
+}
+
+#contactnav:hover {
+    top: 190px;
     color: #ffffff;
     background-color: #191919;
     border-color: #ffffff;
     border-style: solid;
     border-width: 4px;
-  }
+}
