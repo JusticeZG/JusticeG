@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: helvetica;
-    src: url("https://github.com/JusticeZG/JusticeG.github.io/blob/master/fonts/Helvetica.ttf");
+    src: url("./fonts/Helvetica.ttf");
 }
 
 @font-face {
@@ -90,6 +90,7 @@
 }
 
 .justice:hover {
+    transition: 0.3s;
     color: #c4ffc4;
     background-color: #191919;
     border-style: solid;
@@ -102,6 +103,7 @@
 }
 
 .about:hover {
+    transition: 0.3s;
     color: #c4ffc4;
 }
 
@@ -123,6 +125,7 @@
 }
 
 .lplay:hover {
+    transition: 0.3s;
     color: #191919;
     background-color: #faafa0;
     border-style: solid;
@@ -156,6 +159,7 @@
 }
 
 .play:hover {
+    transition: 0.3s;
     color: #faafa0;
     background-color: #191919;
     border-style: solid;
@@ -185,6 +189,7 @@
 }
 
 .lcreate:hover {
+    transition: 0.3s;
     color: #191919;
     background-color: #ffe489;
     border-style: solid;
@@ -218,6 +223,7 @@
 }
 
 .create:hover {
+    transition: 0.3s;
     color: #ffe489;
     background-color: #191919;
     border-style: solid;
@@ -250,6 +256,7 @@
 }
 
 .work:hover {
+    transition: 0.3s;
     color: #92d7ef;
     background-color: #191919;
     border-color: #92d7ef;
@@ -279,6 +286,7 @@
 }
 
 .lwork:hover {
+    transition: 0.3s;
     color: #191919;
     background-color: #92d7ef;
     border-style: solid;
@@ -291,6 +299,7 @@
 }
 
 .xp:hover {
+    transition: 0.3s;
     color: #92d7ef;
 }
 
@@ -347,6 +356,7 @@ body {
 }
 
 .lcontacts:hover {
+    transition: 0.3s;
     text-decoration: none;
     font-style: bold;
     font-size: 15px;
@@ -387,6 +397,7 @@ body {
 }
 
 .contacts:hover {
+    transition: 0.3s;
     color: #ffffff;
     background-color: #191919;
     border-style: solid;
@@ -412,6 +423,7 @@ body {
 }
 
 .facebook:hover {
+    transition: 0.3s;
     color: #191919;
     background-color: #ffffff;
     padding: 0px 16px;
@@ -439,6 +451,7 @@ body {
 }
 
 .link:hover {
+    transition: 0.3s;
     color: #191919;
     background-color: #ffffff;
     border-style: solid;
@@ -465,9 +478,142 @@ body {
 }
 
 .email:hover {
+    transition: 0.3s;
     color: #191919;
     background-color: #ffffff;
     border-style: solid;
     border-width: 6px;
     border-color: #ffffff;
+}
+
+.floater {
+    position: fixed;
+    top: 35%;
+}
+
+#mySidenav a {
+    position: absolute;
+    /* Position them relative to the browser window */
+    left: -110px;
+    /* Position them outside of the screen */
+    transition: 0.3s;
+    /* Add transition on hover */
+    padding: 2px 4px;
+    /* 15px padding */
+    width: 100px;
+    /* Set a specific width */
+    font-family: helvetica;
+    src: url(./fonts/Helvetica.ttf);
+    font-size: 20px;
+    /* Increase font size */
+    font-style: bold;
+    text-align: center;
+    color: #191919;
+    /* White text color */
+    border-style: transparent;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-align: center;
+}
+
+#mySidenav a:hover {
+    left: -17px;
+    /* On mouse-over, make the elements appear as they should */
+}
+
+
+/* The about link: 20px from the top with a green background */
+
+#mainnav {
+    top: 20px;
+}
+
+#mainnav:hover {
+    top: 20px;
+    color: #ffffff;
+    background-color: #191919;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#homenav {
+    top: 20px;
+}
+
+#homenav:hover {
+    top: 20px;
+    color: #ffffff;
+    background-color: #191919;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#aboutnav {
+    top: 54px;
+}
+
+#aboutnav:hover {
+    top: 54px;
+    color: #c4ffc4;
+    background-color: #191919;
+    border-color: #c4ffc4;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#createnav {
+    top: 88px;
+}
+
+#createnav:hover {
+    top: 88px;
+    color: #ffe489;
+    background-color: #191919;
+    border-color: #ffe489;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#playnav {
+    top: 122px;
+}
+
+#playnav:hover {
+    top: 122px;
+    color: #faafa0;
+    background-color: #191919;
+    border-color: #faafa0;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#worknav {
+    top: 156px;
+}
+
+#worknav:hover {
+    top: 156px;
+    color: #92d7ef;
+    background-color: #191919;
+    border-color: #92d7ef;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#contactnav {
+    top: 190px;
+}
+
+#contactnav:hover {
+    top: 190px;
+    color: #ffffff;
+    background-color: #191919;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 4px;
 }
