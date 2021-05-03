@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-    background-color: #191919;
+    background-color: #2B3240;
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 }
 
 .mainL {
-    background-color: #191919;
+    background-color: #2B3240;
     padding-top: 5%;
     padding-bottom: 10%;
 }
@@ -32,7 +32,7 @@
 
 .container {
     color: white;
-    background-color: #191919;
+    background-color: #2B3240;
     margin-top: 125px;
     margin-left: 15%;
     margin-right: 15%;
@@ -40,7 +40,7 @@
 
 .container2 {
     color: white;
-    background-color: #191919;
+    background-color: #2B3240;
     margin-top: 125px;
     margin-left: 10%;
     margin-right: 10%;
@@ -48,7 +48,7 @@
 
 .container3 {
     color: white;
-    background-color: #191919;
+    background-color: #2B3240;
     margin-top: 125px;
     margin-left: 35%;
     margin-right: 35%;
@@ -56,7 +56,7 @@
 
 .container4 {
     color: white;
-    background-color: #191919;
+    background-color: #2B3240;
     margin-top: 125px;
     margin-left: 25%;
     margin-right: 25%;
@@ -88,13 +88,13 @@
     text-decoration: none;
     font-size: 60px;
     font-style: bold;
-    background-color: #c4ffc4;
-    color: #191919;
+    background-color: #F2D06B;
+    color: #2B3240;
     padding: 2px 6px;
     margin: 4px;
     border-style: solid;
     border-width: 6px;
-    border-color: #c4ffc4;
+    border-color: #F2D06B;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -104,93 +104,27 @@
 
 .justice:hover {
     transition: 0.3s;
-    color: #c4ffc4;
-    background-color: #191919;
+    color: #F2D06B;
+    background-color: #2B3240;
     border-style: solid;
     border-width: 6px;
-    border-color: #c4ffc4;
+    border-color: #F2D06B;
 }
 
 .justice:active {
-    color: #fae9e7;
+    color: #F5F2B7;
 }
 
 .about:hover {
     transition: 0.3s;
-    color: #c4ffc4;
-}
-
-.lplay {
-    text-decoration: none;
-    font-family: helvetica;
-    src: url(./fonts/Helvetica.ttf);
-    font-size: 25px;
-    background-color: transparent;
-    color: #faafa0;
-    border: 4px;
-    border-color: transparent;
-    border-style: solid;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-}
-
-.lplay:hover {
-    transition: 0.3s;
-    color: #191919;
-    background-color: #faafa0;
-    border-style: solid;
-    border-width: 4px;
-    border-color: #faafa0;
-}
-
-.lplay:active {
-    color: #fae9e7;
-}
-
-.play {
-    text-decoration: none;
-    font-family: helvetica;
-    src: url(./fonts/Helvetica.ttf);
-    font-size: 60px;
-    background-color: transparent;
-    color: #191919;
-    padding: 2px 6px;
-    margin: 4px;
-    border: 4px;
-    border-color: transparent;
-    border-style: solid;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-color: #faafa0;
-    background-color: #faafa0;
-}
-
-.play:hover {
-    transition: 0.3s;
-    color: #faafa0;
-    background-color: #191919;
-    border-style: solid;
-    border-width: 6px;
-    border-color: #faafa0;
-}
-
-.play:active {
-    color: #fae9e7;
-    border-style: solid;
-    border: 6px;
+    color: #F2D06B;
 }
 
 .lcreate {
     text-decoration: none;
     font-size: 25px;
     background-color: transparent;
-    color: #ffe489;
+    color: #F5F2B7;
     border: 4px;
     border-style: solid;
     border-color: transparent;
@@ -203,15 +137,15 @@
 
 .lcreate:hover {
     transition: 0.3s;
-    color: #191919;
-    background-color: #ffe489;
+    color: #2B3240;
+    background-color: #F5F2B7;
     border-style: solid;
     border-width: 4px;
-    border-color: #ffe489;
+    border-color: #F5F2B7;
 }
 
 .lcreate:active {
-    color: #fae9e7;
+    color: #F5F2B7;
 }
 
 .create {
@@ -220,7 +154,7 @@
     src: url(./fonts/Helvetica.ttf);
     font-size: 60px;
     background-color: transparent;
-    color: #191919;
+    color: #2B3240;
     padding: 2px 6px;
     margin: 4px;
     border: 4px;
@@ -231,26 +165,26 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    border-color: #ffe489;
-    background-color: #ffe489;
+    border-color: #F5F2B7;
+    background-color: #F5F2B7;
 }
 
 .create:hover {
     transition: 0.3s;
-    color: #ffe489;
-    background-color: #191919;
+    color: #F5F2B7;
+    background-color: #2B3240;
     border-style: solid;
     border-width: 6px;
-    border-color: #ffe489;
+    border-color: #F5F2B7;
 }
 
 .create:active {
-    color: #fae9e7;
+    color: #F5F2B7;
 }
 
 .work {
     text-decoration: none;
-    color: #92d7ef;
+    color: #F5B795;
     font-family: helvetica;
     font-size: 60px;
     src: url(./fonts/Helvetica.ttf);
@@ -258,9 +192,9 @@
     border-width: 6px;
     padding: 2px 6px;
     margin: 4px;
-    border-color: #92d7ef;
-    color: #191919;
-    background-color: #92d7ef;
+    border-color: #F5B795;
+    color: #2B3240;
+    background-color: #F5B795;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -270,20 +204,20 @@
 
 .work:hover {
     transition: 0.3s;
-    color: #92d7ef;
-    background-color: #191919;
-    border-color: #92d7ef;
+    color: #F5B795;
+    background-color: #2B3240;
+    border-color: #F5B795;
     border-style: solid;
     border-width: 6px;
 }
 
 .work:active {
-    color: #fae9e7;
+    color: #F5F2B7;
 }
 
 .lwork {
     text-decoration: none;
-    color: #92d7ef;
+    color: #F5B795;
     font-family: helvetica;
     font-size: 25px;
     src: url(./fonts/Helvetica.ttf);
@@ -300,20 +234,20 @@
 
 .lwork:hover {
     transition: 0.3s;
-    color: #191919;
-    background-color: #92d7ef;
+    color: #2B3240;
+    background-color: #F5B795;
     border-style: solid;
     border-width: 4px;
-    border-color: #92d7ef;
+    border-color: #F5B795;
 }
 
 .lwork:active {
-    color: #fae9e7;
+    color: #F5F2B7;
 }
 
 .xp:hover {
     transition: 0.3s;
-    color: #92d7ef;
+    color: #F5B795;
 }
 
 a {
@@ -330,7 +264,7 @@ a {
 }
 
 body {
-    background-color: #191919;
+    background-color: #2B3240;
     padding: 20px;
     font-family: Arial;
     font-family: helvetica;
@@ -377,7 +311,7 @@ body {
     font-style: bold;
     font-size: 15px;
     background-color: #ffffff;
-    color: #191919;
+    color: #2B3240;
     padding: 2px 6px;
     margin: 4px;
     border-style: solid;
@@ -391,7 +325,7 @@ body {
 }
 
 .lcontacts:active {
-    color: #fae9e7;
+    color: #F5F2B7;
 }
 
 .contacts {
@@ -399,7 +333,7 @@ body {
     font-style: bold;
     font-size: 60px;
     background-color: #ffffff;
-    color: #191919;
+    color: #2B3240;
     padding: 2px 6px;
     margin: 4px;
     border-style: solid;
@@ -415,7 +349,7 @@ body {
 .contacts:hover {
     transition: 0.3s;
     color: #ffffff;
-    background-color: #191919;
+    background-color: #2B3240;
     border-style: solid;
     border-width: 6px;
     border-color: #ffffff;
@@ -440,7 +374,7 @@ body {
 
 .facebook:hover {
     transition: 0.3s;
-    color: #191919;
+    color: #2B3240;
     background-color: #ffffff;
     padding: 0px 16px;
     border-style: solid;
@@ -468,7 +402,7 @@ body {
 
 .link:hover {
     transition: 0.3s;
-    color: #191919;
+    color: #2B3240;
     background-color: #ffffff;
     border-style: solid;
     border-width: 6px;
@@ -495,7 +429,7 @@ body {
 
 .email:hover {
     transition: 0.3s;
-    color: #191919;
+    color: #2B3240;
     background-color: #ffffff;
     border-style: solid;
     border-width: 6px;
@@ -524,7 +458,7 @@ body {
     /* Increase font size */
     font-style: bold;
     text-align: center;
-    color: #191919;
+    color: #2B3240;
     /* White text color */
     border-style: transparent;
     border-radius: 4px;
@@ -546,7 +480,7 @@ body {
 #mainnav:hover {
     top: 20px;
     color: #ffffff;
-    background-color: #191919;
+    background-color: #2B3240;
     border-color: #ffffff;
     border-style: solid;
     border-width: 4px;
@@ -559,7 +493,7 @@ body {
 #homenav:hover {
     top: 20px;
     color: #ffffff;
-    background-color: #191919;
+    background-color: #2B3240;
     border-color: #ffffff;
     border-style: solid;
     border-width: 4px;
@@ -571,9 +505,9 @@ body {
 
 #aboutnav:hover {
     top: 54px;
-    color: #c4ffc4;
-    background-color: #191919;
-    border-color: #c4ffc4;
+    color: #F2D06B;
+    background-color: #2B3240;
+    border-color: #F2D06B;
     border-style: solid;
     border-width: 4px;
 }
@@ -584,22 +518,9 @@ body {
 
 #createnav:hover {
     top: 88px;
-    color: #ffe489;
-    background-color: #191919;
-    border-color: #ffe489;
-    border-style: solid;
-    border-width: 4px;
-}
-
-#playnav {
-    top: 122px;
-}
-
-#playnav:hover {
-    top: 122px;
-    color: #faafa0;
-    background-color: #191919;
-    border-color: #faafa0;
+    color: #F5F2B7;
+    background-color: #2B3240;
+    border-color: #F5F2B7;
     border-style: solid;
     border-width: 4px;
 }
@@ -610,9 +531,9 @@ body {
 
 #worknav:hover {
     top: 156px;
-    color: #92d7ef;
-    background-color: #191919;
-    border-color: #92d7ef;
+    color: #F5B795;
+    background-color: #2B3240;
+    border-color: #F5B795;
     border-style: solid;
     border-width: 4px;
 }
@@ -624,7 +545,7 @@ body {
 #contactnav:hover {
     top: 190px;
     color: #ffffff;
-    background-color: #191919;
+    background-color: #2B3240;
     border-color: #ffffff;
     border-style: solid;
     border-width: 4px;
@@ -674,13 +595,13 @@ h1 {
     padding: 10px;
 }
 
-@media screen and (max-width: 9000px) {
+@media screen and (max-width: 900px) {
     .column {
         width: 50%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
     .column {
         width: 100%;
     }
@@ -716,7 +637,7 @@ h1 {
 }
 
 .imageo__overlay--primary {
-    background: #faafa0;
+    background: #F5F2B7;
 }
 
 .imageo__overlay>* {
@@ -735,7 +656,20 @@ h1 {
 .imageo__title {
     background-color: transparent;
     text-align: center;
-    color: #191919;
-    font-size: 32px;
+    color: #2B3240;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageo__desc {
+    padding-bottom: 10%;
+    background: transparent;
+    text-align: center;
+    color: #2B3240;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shoes {
+    padding-bottom: 10%;
 }
