@@ -111,10 +111,6 @@
     border-color: #F2D06B;
 }
 
-.justice:active {
-    color: #F5F2B7;
-}
-
 .about:hover {
     transition: 0.3s;
     color: #F2D06B;
@@ -124,7 +120,7 @@
     text-decoration: none;
     font-size: 25px;
     background-color: transparent;
-    color: #F5F2B7;
+    color: #f2aa6b;
     border: 4px;
     border-style: solid;
     border-color: transparent;
@@ -138,14 +134,10 @@
 .lcreate:hover {
     transition: 0.3s;
     color: #2B3240;
-    background-color: #F5F2B7;
+    background-color: #f2aa6b;
     border-style: solid;
     border-width: 4px;
-    border-color: #F5F2B7;
-}
-
-.lcreate:active {
-    color: #F5F2B7;
+    border-color: #f2aa6b;
 }
 
 .create {
@@ -165,21 +157,17 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    border-color: #F5F2B7;
-    background-color: #F5F2B7;
+    border-color: #f2aa6b;
+    background-color: #f2aa6b;
 }
 
 .create:hover {
     transition: 0.3s;
-    color: #F5F2B7;
+    color: #f2aa6b;
     background-color: #2B3240;
     border-style: solid;
     border-width: 6px;
-    border-color: #F5F2B7;
-}
-
-.create:active {
-    color: #F5F2B7;
+    border-color: #f2aa6b;
 }
 
 .work {
@@ -211,10 +199,6 @@
     border-width: 6px;
 }
 
-.work:active {
-    color: #F5F2B7;
-}
-
 .lwork {
     text-decoration: none;
     color: #F5B795;
@@ -239,10 +223,6 @@
     border-style: solid;
     border-width: 4px;
     border-color: #F5B795;
-}
-
-.lwork:active {
-    color: #F5F2B7;
 }
 
 .xp:hover {
@@ -322,10 +302,6 @@ body {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-}
-
-.lcontacts:active {
-    color: #F5F2B7;
 }
 
 .contacts {
@@ -518,9 +494,9 @@ body {
 
 #createnav:hover {
     top: 88px;
-    color: #F5F2B7;
+    color: #f2aa6b;
     background-color: #2B3240;
-    border-color: #F5F2B7;
+    border-color: #f2aa6b;
     border-style: solid;
     border-width: 4px;
 }
@@ -637,7 +613,7 @@ h1 {
 }
 
 .imageo__overlay--primary {
-    background: #F5F2B7;
+    background: #f2aa6b;
 }
 
 .imageo__overlay>* {
@@ -672,4 +648,20 @@ h1 {
 
 .shoes {
     padding-bottom: 10%;
+}
+
+.small {
+    font-weight: medium;
+}
+
+.big {
+    font-size: 40px;
+}
+
+.stick {
+    font-weight: lighter;
+}
+
+.thicc {
+    font-weight: bold;
 }
