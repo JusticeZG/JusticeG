@@ -310,28 +310,6 @@ body {
     height: auto;
 }
 
-.lfooter {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    padding-top: 10px;
-    width: 100%;
-    font-family: helvetica;
-    src: url(./fonts/Helvetica.ttf);
-    text-align: center;
-}
-
-.footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    padding-top: 10px;
-    width: 100%;
-    font-family: helvetica;
-    src: url(./fonts/Helvetica.ttf);
-    text-align: center;
-}
-
 .lcontacts:hover {
     transition: 0.3s;
     text-decoration: none;
@@ -486,7 +464,7 @@ h1 {
 
 .column2 {
     float: left;
-    width: 50%;
+    width: 45%;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -641,12 +619,8 @@ h1 {
     font-size: large;
 }
 
-.standardl {
-    font-size: 20px;
-}
-
 .standard {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .white {
@@ -713,12 +687,6 @@ Date retrieved: Nov 18, 2021
 -->
 
 <!-- Copied code starts -->
-
-function slideshow() {
-…
-}
-
-<!-- Copied code ends -->
 */
 
 div.gallery {
@@ -735,3 +703,45 @@ div.gallery {
   /*
   <!-- Copied code ends -->
   */
+
+/*
+Code copied from: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_fixed
+Author: w3schools.com
+Name: Vertical Side Nav
+Description: Displays a vertical nav bar
+Date retrieved: Nov 22, 2021
+-->
+
+<!-- Copied code starts -->
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    position: fixed;
+    height: 100%;
+    top: 25%;
+    overflow: auto;
+  }
+  
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+li a.active {
+    color:#595048;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #595048;
+    color: white;
+  }
+  
+/*
+<!-- Copied code ends -->
+*/
