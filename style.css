@@ -21,7 +21,7 @@
 
 .mainL {
     background-color: #F2E8DF;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 10%;
 }
 
@@ -66,7 +66,7 @@
 .container5 {
     color: #261E17;
     background-color: #F2E8DF;
-    margin-top: 125px;
+    margin-top: 10px;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -83,6 +83,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.container8 {
+    color: #261E17;
+    background-color: #F2E8DF;
+    margin-top: 125px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 
 .center {
     display: block;
@@ -153,7 +162,7 @@
     text-decoration: none;
     font-size: 25px;
     background-color: transparent;
-    color: #698271;
+    color:#698271;
     border: 4px;
     border-style: solid;
     border-color: transparent;
@@ -495,10 +504,6 @@ h1 {
     clear: both;
 }
 
-.content {
-    padding: 10px;
-}
-
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
@@ -517,7 +522,6 @@ h1 {
 
 .imageo__img {
     display: block;
-    border-radius: 10px;
 }
 
 .imageo__overlay {
@@ -526,27 +530,23 @@ h1 {
     top: 0;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-    color: #698271;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
 }
 
+/*
+
 .imageo__overlay--blur {
     backdrop-filter: blur(5px);
 }
 
-.imageo__overlay--primary {
-    background: #698271;
-}
-
+*/
 .imageo__overlay>* {
-    transform: translateY(20px);
-    transition: transform 0.25s;
+    transform: translateY(5px);
+    transition: transform 0.15s;
 }
 
 .imageo__overlay:hover {
@@ -559,20 +559,19 @@ h1 {
 
 .imageo__title {
     background-color: transparent;
-    text-align: center;
     color: #F2E8DF;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .imageo__desc {
-    padding-bottom: 10%;
     background: transparent;
-    text-align: center;
-    color: #F2E8DF;
+    color: black;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 .shoes {
     padding-bottom: 10%;
@@ -722,7 +721,6 @@ ul {
     width: 100px;
     position: fixed;
     height: 100%;
-    top: 25%;
     overflow: auto;
   }
   
@@ -745,3 +743,38 @@ li a:hover:not(.active) {
 /*
 <!-- Copied code ends -->
 */
+
+hr.divider {
+    border: 1px solid black;
+}
+
+.animate {
+    position:relative;
+    width: 100%;
+}
+
+.image-main {
+    width: 100%;
+    opacity: 0.25;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    transition: grayscale 0.2s;
+}
+
+.image-main:hover {
+    cursor: pointer;
+    filter: none;
+    opacity: 1;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: none;
+    transition: grayscale 1s;
+    cursor: pointer;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
