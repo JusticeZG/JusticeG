@@ -330,77 +330,28 @@ body {
     height: auto;
 }
 
-.lcontacts:hover {
-    transition: 0.3s;
-    text-decoration: none;
-    font-style: bold;
-    font-size: 15px;
-    background-color: #261E17;
-    color: #F2E8DF;
-    padding: 2px 6px;
-    margin: 4px;
-    border-style: solid;
-    border-width: 6px;
-    border-color: #261E17;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
+#contacts {
+    border-collapse: collapse;
+    width: 100%;
 }
 
-.contacts {
-    text-decoration: none;
-    font-style: bold;
-    font-size: 60px;
-    background-color: #261E17;
-    color: #F2E8DF;
-    padding: 2px 6px;
-    margin: 4px;
-    border-style: solid;
-    border-width: 6px;
-    border-color: #261E17;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
+#contacts td, #customers th{
+    border: transparent;
+    padding: 8px;
 }
 
-.contacts:hover {
-    transition: 0.3s;
-    color: #261E17;
-    background-color: #F2E8DF;
-    border-style: solid;
-    border-width: 6px;
-    border-color: #261E17;
+#customers tr:nth-child(even){
+    background-color: transparent;
 }
 
-.facebook {
-    font-family: facebolf;
-    font-size: 35px;
-    letter-spacing: 1px;
-    background-color: #4267B2;
-    color: #261E17;
-    padding: 0px 16px;
-    border-style: solid;
-    border-width: 4px;
-    border-color: #4267B2;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-}
+#customers tr:hover {background-color: #698271;}
 
-.facebook:hover {
-    transition: 0.3s;
-    color: #F2E8DF;
-    background-color: #261E17;
-    padding: 0px 16px;
-    border-style: solid;
-    border-width: 4px;
-    border-color: #261E17;
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #698271;
+  color: white;
 }
 
 .link {
